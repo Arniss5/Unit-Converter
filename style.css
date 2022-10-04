@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(10, 10, 10);
+}
+
+.container {
+    max-width: 550px;
+    margin: 5% auto;
+}
+
+.top {
+    color: #fff;
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top h1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 30px 50px;
+}
+
+#input-num {
+    font-size: 58px;
+    font-family: inherit;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+    width: 120px;
+    height: 83px;
+    background-color: transparent;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+}
+
+/* get rid of the input arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#convert {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #F4F4F4;
+    width: 120px;
+    height: 42px;
+    margin: 27px 0 34px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+#convert:hover {
+    background-color: #dddbdb;
+    cursor: pointer;
+}
+
+.bottom {
+    background-color: #F4F4F4;
+    text-align: center;
+    padding: 36px 0 12px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unit-container {
+    background-color: #fff;
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.unit {
+    font-size: 20px;
+    font-weight: 600;
+    color: #5A537B;
+}
+
+.conversions {
+    font-size: 14px;
+    margin: 10px 0
+}
